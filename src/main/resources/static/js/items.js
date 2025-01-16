@@ -3,7 +3,7 @@ document.getElementById('itemForm').addEventListener('submit', function(event){
 
     const item = {
         item : document.getElementById('item_id').value,
-    }
+    };
 
     //fetch(요청 주소, 요청 내용 객체) - 함수
     // -> fetch 는 post 방식으로 /items 주소를 요청함.
