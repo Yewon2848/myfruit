@@ -18,11 +18,8 @@ document.getElementById('itemForm').addEventListener('submit', function(event){
         }else{
             alert('메시지 생성에 실패했습니다.');
         }
-    })
-    .catch(error => {
+    }).catch(error => {
         console.error('Error : ', error);
         alert('오류가 발생했습니다.');
     });
-
-
 });
