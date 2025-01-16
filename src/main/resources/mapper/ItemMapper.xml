@@ -3,6 +3,6 @@
 
 <mapper namespace="com.myfruit.pms.mapper.ItemMapper">
     <insert id="insertItem" parameterType="com.myfruit.pms.dto.ItemDto">
-        insert into items (name) values (#{item});
+        insert into items (item) values (#{item});
     </insert>
 </mapper>
