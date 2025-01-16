@@ -1,9 +1,10 @@
 package com.myfruit.pms.controller;
 
 import com.myfruit.pms.dto.ItemDto;
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
-@RestController
+@Controller
 @RequestMapping("/items")
 public class ItemController {
 
