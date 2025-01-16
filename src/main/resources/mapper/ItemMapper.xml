@@ -3,6 +3,7 @@
 
 <mapper namespace="com.myfruit.pms.mapper.ItemMapper">
     <insert id="insertItem" parameterType="com.myfruit.pms.dto.ItemDto">
-        insert into items (item) values (#{item});
+        insert into items (name) values (#{item});
+        <!--    insert 에 들어가는 것이 데이터 베이스에 작성한  insert 구문임    -->
     </insert>
 </mapper>
