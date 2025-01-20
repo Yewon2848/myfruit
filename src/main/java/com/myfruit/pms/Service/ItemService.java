@@ -39,9 +39,6 @@ public class ItemService {
     public void remove(int id) {
         itemMapper.deleteItem(id);
     }
-
-    // 메서드 구문
-    // 접근제어자 리턴타입 메서드이름() {}
 }
 
 //함수

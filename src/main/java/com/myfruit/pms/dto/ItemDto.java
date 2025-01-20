@@ -6,9 +6,13 @@ public class ItemDto {
     private String item;
 
     // 기본 생성자 (필수)
-    public ItemDto() {}
+    //public ItemDto() {}
 
     // Getter 와 Setter
+    public Integer getId(){
+        return id;
+    }
+
     public void setId(Integer id){
         this.id =id;
     }
